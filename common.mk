@@ -278,6 +278,9 @@ PRODUCT_SOONG_NAMESPACES += \
     kernel/samsung/sm8550-modules
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
