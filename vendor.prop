@@ -137,6 +137,7 @@ debug.sf.earlyGl.sf.duration=15666666
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.gpu_freq_index=7
+debug.sf.auto_latch_unsignaled=0
 debug.sf.latch_unsignaled=1
 debug.sf.late.app.duration=13666666
 debug.sf.late.sf.duration=15666666
