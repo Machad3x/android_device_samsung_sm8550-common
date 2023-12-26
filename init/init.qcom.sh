@@ -496,3 +496,6 @@ case "$buildvariant" in
         echo 0xffffffff > /sys/bus/coresight/devices/coresight-stm/port_enable
         ;;
 esac
+
+# Clear packages_cache to avoid systemapp have mismatch strings id
+rm -rf /data/system/package_cache
