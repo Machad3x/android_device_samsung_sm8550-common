@@ -28,6 +28,8 @@ hal_client_domain(hal_camera_default, hal_thermal)
 get_prop(hal_camera_default, sec_camera_prop)
 set_prop(hal_camera_default, sec_camera_prop)
 
+allow hal_camera_default system_app:binder call;
+
 allow hal_camera_default system_server:binder call;
 
 allow hal_camera_default rild:unix_stream_socket connectto;
