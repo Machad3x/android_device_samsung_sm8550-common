@@ -18,3 +18,5 @@ get_prop(hal_audio_default, vendor_radio_prop)
 allow hal_audio_default hal_bluetooth_a2dp_hwservice:hwservice_manager find;
 
 dontaudit hal_audio_default default_prop:file { read open getattr map };
+
+allow hal_audio_default system_app:binder call;
