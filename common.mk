@@ -177,6 +177,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.recovery.qcom.rc \
+    init.qti.kernel.rc \
     init.target.rc \
     ueventd-odm.rc \
     ueventd.qcom.rc
