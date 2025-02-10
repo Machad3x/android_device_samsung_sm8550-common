@@ -812,33 +812,33 @@ vendor/firmware/a740_zap.b00
 vendor/firmware/a740_zap.b01
 vendor/firmware/a740_zap.elf
 vendor/firmware/gmu_gen70200.bin
-vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_64.bin
-vendor/gpu/kbc/unified_ksqs.bin
+vendor/gpu/kbc/sequence_manifest.bin|d0569fdb8a2e659181a7c4369d8278cb99c92fca
+vendor/gpu/kbc/unified_kbcs_64.bin|ef24f5a61e3a1f28343b49999c5e8d12ae8dcd67
+vendor/gpu/kbc/unified_ksqs.bin|e1174f1692be432f5ceca8f85ea669dbe667a2e7
 
 # Graphics (Adreno)
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libgpudataproducer.so
+vendor/lib64/egl/eglSubDriverAndroid.so|6a69e79e3fbaff0218f081deade0814efcccbe23
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|f4e098bd570e20a8707ff1a3ab791275c93605f5
+vendor/lib64/egl/libGLESv1_CM_adreno.so|0e27ec4c52c7d68d99ee83cc8c8df41f7f9c786b
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|3d79ce315de190cad33f6dfc1f806d6b24195559
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|5ad33abf50835fb77839866d4d3b04ea2d7adcf9
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|2a15f0e18e769d67e7f320d7b70c672ba6b06a40
+vendor/lib64/egl/libq3dtools_esx.so|8dcecd7dd14ef233a42659b875665a67e58b9fbb
+vendor/lib64/libCB.so|b6825ff1308e311000a463df08a26d3cf84ad775
+vendor/lib64/libOpenCL.so|3a75415c2b091c55632d03ec993e29910f982ae4
+vendor/lib64/libadreno_app_profiles.so|3dbffc534bbc7f990ab8e09bdab1a2b14a69f4f5
+vendor/lib64/libadreno_utils.so|92112c7ab5261e10ac908a2b91edb2e4aee70baf
+vendor/lib64/libgpudataproducer.so|1526993c638723e61458c12102f7e3d6e83675ab
 vendor/lib64/libgralloc_helper.unifunc.so
-vendor/lib64/libgsl.so
-vendor/lib64/libkcl.so
-vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
+vendor/lib64/libgsl.so|facb603802457a5ae0a0ec707518a343cf7fae7b
+vendor/lib64/libkcl.so|87dbb18c1d9eab8c75ef66326c2ce9070b45d2b3
+vendor/lib64/libkernelmanager.so|3c68f997d3df3e2842e6383492a7c7ffa335763b
+vendor/lib64/libllvm-glnext.so|6b53655c2f1372c5180e396ff21c5d92cb27036b
+vendor/lib64/libllvm-qcom.so|0374f2bbc78aa6f6e9d0ab8296dd3e997f44a7af
+vendor/lib64/libllvm-qgl.so|1e73650206dc61c570c65c2414fc6db6af77938c
 
 # Graphics (Vulkan)
-vendor/lib64/hw/vulkan.adreno.so
+vendor/lib64/hw/vulkan.adreno.so|822dd61f3b3aa3aa55099c68196ce92999235a93
 
 # Hermes
 vendor/bin/hermesd
@@ -1067,7 +1067,7 @@ vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 # QSPM
-vendor/lib64/vendor.qti.qspmhal@1.0.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so|b24925548b969a7745955bbd48069207aa5889fc
 
 # RIL
 vendor/bin/hw/rild
